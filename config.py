@@ -1,0 +1,14 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+POLLINATIONS_KEY = os.getenv("POLLINATIONS_KEY")
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL")
+
+ADMIN_ID = 8855238317 
+UPI_ID = "8058955785@fam" 
+PRICE_PER_EDIT = 5
